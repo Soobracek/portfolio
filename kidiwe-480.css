@@ -1,0 +1,38 @@
+@import 'common-480.css';
+
+#dessinkidiwe{
+    width: 100%;
+}
+h5{
+    text-align: center;
+}
+.miwrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10% 0;
+}
+#logo_kidiwe{
+    background-image: url(../img/img_site/logo.kidiwe.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+}
+.miwrap1{
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.miwrap1 div:last-child{
+    padding: 5% 10%;
+}
+
+.miwrap img{
+    max-width: 100%;
+}
+#sitekidiwe{
+   display: block;
+   width: 100%;
+    margin: 0 auto;
+}

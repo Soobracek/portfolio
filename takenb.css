@@ -1,0 +1,77 @@
+@import 'common.css';
+#takenb-bannier {
+  height: 150px;
+  width: 100%;
+  background-image: url('../img/img_site/city.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.mainwrap{
+    width: 70%;
+    margin: 50px auto;
+    color: var(--color-gray);
+}
+
+.mainwrap h5{
+    text-align: center;
+    letter-spacing: 1;
+}
+.mainwrap p{
+    font-size: 24px;
+}
+
+#righttext_1{
+    margin: 50px auto;
+}
+#righttext_2{
+    width: 50%;
+    float: right;
+    margin: 0 30px;
+    text-align: justify;
+}
+.contain_img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#img_left,
+#bas_img_left,
+#bas_img_right{
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#img_left{
+    background-image: url(../img/img_site/takenb_page1.jpeg);
+    width: 38%;
+    height: 158%;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 58%;
+}
+.right .bas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 80%;
+    margin-top: 20%;
+}
+
+#bas_img_left{
+    background-image: url(../img/img_site/takenb_page2.jpeg);
+    width: 48%;
+}
+#bas_img_right{
+    background-image: url(../img/img_site/takenb_page3.jpeg);
+    width: 48%;
+}
+.slide-tb{
+    display: none;
+}

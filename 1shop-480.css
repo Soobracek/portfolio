@@ -1,0 +1,19 @@
+@import 'common-480.css';
+
+.mainwrap h5{
+    text-align: center;
+    letter-spacing: 1;
+}
+#img1{
+    width: 100%;
+}
+.mainwrap p{
+    margin:  20px 0;
+    text-align: justify;
+}
+
+#img2{
+    width: 100%;
+    display: block;
+   margin: 0 auto 20px;
+}

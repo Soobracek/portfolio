@@ -1,0 +1,25 @@
+@import 'common-480.css';
+
+.mainwrap{
+    display: flex;
+    flex-direction: column;
+}
+.mainwrap h5{
+    text-align: center;
+    letter-spacing: 1;
+    margin-bottom: 3rem;
+}
+.mainwrap img:not(#toulogo){
+    max-width: 100%;
+}
+#toulogo{
+    max-width: 50%;
+    display: block;
+    margin: 0 auto;    
+}
+.mainwrap p{
+    margin-top: 30px;
+}
+.mainwrap img:last-child{
+    margin-top: 30px;
+}

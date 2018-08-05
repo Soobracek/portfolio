@@ -1,0 +1,26 @@
+@import 'common.css';
+
+.mainwrap{
+    width: 70%;
+    margin: 50px auto;
+    letter-spacing: 0.5;
+    color: var(--color-gray);
+}
+
+.mainwrap h5{
+    text-align: center;
+    letter-spacing: 1;
+}
+#img1{
+    width: 100%;
+}
+.mainwrap p{
+    margin: 50px 20px;
+    font-size: 24px;
+}
+
+#img2{
+    width: 60%;
+    display: block;
+   margin: 100px auto;
+}

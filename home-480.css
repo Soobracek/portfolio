@@ -1,0 +1,82 @@
+@import 'common-480.css';
+#logo{
+    max-width:100%;
+    height: 68px;
+    background: url(../img/img_480/logo.png) center no-repeat;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 96px;
+}
+
+#bannier {
+  height: 569px;
+  width: 100%;
+  background-image: url('../img/img_480/background.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container #text{
+    width: 80%;
+    margin: 50px auto;
+    text-align: justify;
+}
+
+.selector{
+   width: 80%;
+   margin: 0 auto;
+}
+
+.selector{
+   width: 80%;
+   margin: 0 auto;
+}
+
+
+.column{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 50px auto;
+    justify-content: center;
+}
+
+.column a{
+    position: relative;
+}
+
+
+.row div a img{
+    max-width: 100%;
+}
+
+.bghover,
+#lettre{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.bghover{
+    opacity: 1;
+    background-color: rgba(255,255,255,.5);
+}
+
+
+.bghover h2,
+#lettre h2{
+    margin: 35% auto;
+    display: block;
+    text-align: center;
+}
+.bghover h2{
+    color: var(--color-gray);
+}
+#lettre h2{
+    color: white;
+}
+

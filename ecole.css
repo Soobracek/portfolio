@@ -1,0 +1,44 @@
+@import 'common.css';
+.mainwrap{
+    width: 70%;
+    margin: 50px auto;
+    color: var(--color-gray);
+}
+.mainwrap h5{
+    text-align: center;
+    letter-spacing: 1;
+    margin-bottom: 3rem;
+}
+
+.mainwrap div{
+     display: flex;
+     justify-content: space-between;
+     margin: 0 auto;
+}
+#toulogo{
+    display: inline-block;
+    height: 245px;
+    margin-left: 3rem;
+    margin-right: 5rem;
+}
+#toulogo img{
+    max-width: 100%;
+}
+.mainwrap p,.mainwrap span{
+    text-align: justify;
+    display: inline-block;
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+.mainwrap div div:nth-child(1){
+        margin-top: 10em;
+}
+.mainwrap div div{
+    display: inline-block;
+}
+.mainwrap div div img{
+    max-width: 100%;
+}
+
+

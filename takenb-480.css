@@ -1,0 +1,65 @@
+@import 'common-480.css';
+#takenb-bannier {
+  height: 150px;
+  width: 100%;
+  background-image: url('../img/img_site/city.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.mainwrap p{
+    margin: 20px auto;
+}
+.mainwrap h5{
+    text-align: center;
+    letter-spacing: 1;
+/*    font-size: 0.5em;*/
+}
+
+.right{
+    width: 100%;
+    text-align: justify;
+}
+
+#img_left{
+    display: none;
+}
+
+#bas_img_left{
+    display: none;
+}
+#bas_img_right{
+    display: none;
+}
+
+/*slide*/
+.slide-tb{
+    width: 100%;
+}
+.slide-tb img:first-child{
+    width: 100%;
+}
+.slide-tb img:not(:first-child){
+    max-width: 100%;
+}
+
+
+/*button*/
+.button {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    position: absolute;
+    border: none;
+    top: 500px;
+    background-color: transparent;
+    font-size: 1.3em;
+    color: var(--bg-color);
+    padding: 0;
+    outline:none;
+}
+
+.button.display-right{
+    justify-content: flex-end;
+}
