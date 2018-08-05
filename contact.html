@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name=viewport content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="css/contact.css" media="only screen and (min-width: 960px)">
+        <link rel="stylesheet" href="css/contact-959.css" media="only screen and (min-width: 480px) and (max-width:959px)">
+        <link rel="stylesheet" href="css/contact-480.css" media="only screen and (max-width:479px)">
+        <title>Contact-Soo</title>
+    </head>
+    <body>
+        <header>
+           <div id="logo">
+              <a href="home.html">
+                  <img src="img/img_site/logo_white.png" alt="logo">
+              </a> 
+           </div>
+           <nav>
+               <ul class="gnb">
+                    <li>
+                        <a href="home.html">HOME</a>
+                    </li>
+                    <li class="dropdown">
+                        <div>PORTFOLIO</div>
+                        <div class="dropdown-content">
+                            <a href="takenb.html">TAKENB</a>
+                            <a href="1shop.html">1SHOP</a>
+                            <a href="kidiwe.html">KIDIWE</a>
+                            <a href="desruets.html">DESRUETS</a>
+                            <a href="ecole.html">ECOLE</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="cv.html">CV</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" style="color: #3fa9f5;">CONTACT</a>
+                    </li>
+               </ul>
+           </nav>
+           <div class="menu-480">
+                 <div><a href="home.html"><img src="img/img_480/logo_bleu.png" alt="logobleu"></a></div>
+                 <div id="myNav" class="overlay">
+                      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                      <div class="overlay-content">
+                        <a href="home.html">HOME</a>
+                        <a href="home.html#takenb" onclick="closeNav()">PORTFOLIO</a>
+                        <a href="cv.html">CV</a>
+                        <a href="contact.html">CONTACT</a>
+                      </div>
+                    </div>
+
+                    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+              </div>
+           <div id="bannier"></div>
+       </header>
+        <main>
+           <div class="container">
+              <div class="contact_text">
+                <h1>Contactez-Moi</h1>
+                <div>
+                    <p>Je vous remercie d'avoir visité mon site portfolio.</p>
+                   <p>Si vous avez des questions supplémentaires n'hésitez pas à me contacter.</p>    
+                </div>
+              </div>
+              <div class="contact_box">
+                <div><img src="img/img_site/me.jpeg" alt="photo_soo"></div>
+                <div class="right">
+                  <div class="top">
+                      <div class="login">
+                        <input type="text" placeholder="Nom" name="nom">
+                        <input type="text" placeholder="E-Mail" name=mail>
+                      </div>
+                      <input type="text" placeholder="Objet" name=objet>  
+                      <input type="text"  id="message" placeholder="Message" name=message>
+                      <button type="submit">ENVOYER</button>
+                  </div>
+                  <div class="bas">
+                     <span><a href="tel:+33617954747">Tel: +33 6 17 95 47 47</a></span>
+                     <span><a href="mailto:soojung.bracek@viacesi.fr">E-mail: soojung.bracek@viacesi.fr</a></span>
+                     <span><a href="https://www.linkedin.com/in/soo-bracek/"><img src="img/img_site/inlogo.png" alt="linkin"></a></span> 
+                  </div>       
+                </div>     
+              </div> 
+        </div>
+      </main>
+      <script src="js/common-480.js"></script>
+    </body>
+</html>
